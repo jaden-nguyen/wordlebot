@@ -4,7 +4,7 @@ Wordle Bot is an application that gives the user recommendations for each guess 
 It uses natural language processing (NLP) techniques to categorize new responses based on the user's
 suggestions. If you aren't familiar with Wordle, you can play a game here:
 https://nytimes.com/games/wordle/index.html. This application is deployed on
-(https://wordlebot.z5.web.core.windows.net/).
+https://wordlebot.z5.web.core.windows.net.
 
 ## At a Glance
 
