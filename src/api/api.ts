@@ -1,7 +1,3 @@
-import { config } from "dotenv";
-
-config();
-
 export type WordleRequestItem = {
     word: string;
     clue: string;
@@ -13,7 +9,7 @@ export type WordleResponse = {
     guess: string;
 };
 
-const API_PATH = process.env.API_PATH || "";
+const API_PATH = process.env.REACT_APP_BASE_URL || "";
 
 const isWordleResponse = (responseObject: unknown): responseObject is WordleResponse => {
     const response = responseObject as WordleResponse;

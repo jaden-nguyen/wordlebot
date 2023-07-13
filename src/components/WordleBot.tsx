@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Box, Button, CircularProgress, Container, Grid, Typography } from "@mui/material";
 import Guess from "./Guesses";
 import data from "../words.json";
-import { fetchWordleResult } from "../api/api";
 import "../App.css";
+import { fetchWordleResult } from "../api/api";
 
 const MAX_GUESSES = 6;
 
